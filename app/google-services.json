@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "216331877953",
+    "project_id": "photofirebase-9ad8c",
+    "storage_bucket": "photofirebase-9ad8c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216331877953:android:a854190f6297f9cabf10c0",
+        "android_client_info": {
+          "package_name": "com.example.photofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "216331877953-8bkd3p3b1louvobfm4ko25bvcl18eao6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABH5rvv8JYEtDNZVI6IkDL3RhUgGHRXAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "216331877953-8bkd3p3b1louvobfm4ko25bvcl18eao6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
