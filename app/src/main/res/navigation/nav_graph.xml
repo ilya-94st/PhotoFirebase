@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/locationFragment"
-        android:name="com.example.photofirebase.LocationFragment"
+        android:name="com.example.photofirebase.ui.fragments.LocationFragment"
         android:label="fragment_location"
         tools:layout="@layout/fragment_location" />
     <fragment
         android:id="@+id/locationEditingFragment"
-        android:name="com.example.photofirebase.LocationEditingFragment"
+        android:name="com.example.photofirebase.ui.fragments.LocationEditingFragment"
         android:label="fragment_location_editing"
         tools:layout="@layout/fragment_location_editing" />
 </navigation>
