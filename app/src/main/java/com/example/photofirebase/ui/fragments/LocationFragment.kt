@@ -5,6 +5,7 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.recyclerview.widget.GridLayoutManager
 import com.example.photofirebase.adapter.PictureAdapter
 import com.example.photofirebase.base.BaseFragment
 import com.example.photofirebase.databinding.FragmentLocationBinding
@@ -32,6 +33,7 @@ class LocationFragment : BaseFragment<FragmentLocationBinding>() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         listFiles()
+        frameAdapter()
     }
     private fun listFiles() = CoroutineScope(Dispatchers.IO).launch {
         try {
@@ -50,5 +52,8 @@ class LocationFragment : BaseFragment<FragmentLocationBinding>() {
                 toast("${e.message}")
             }
         }
+    }
+    private fun frameAdapter() {
+        (binding.rvPicture.layoutManager as GridLayoutManager).spanCount = 3
     }
 }
